@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Reno Riser - Where renovation meets innovation. Hamilton-based renovation services: kitchens, basements, flooring, painting & more." />
+  <title>RenoRiser | Renovation Service</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <h1 class="logo">RenoRiser</h1>
+      <nav class="mobile-nav">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <img src="images/reno_riser_logo.png" alt="Reno Riser Logo" class="hero-logo" data-aos="zoom-in" />
+      <h2 data-aos="fade-up">Where renovation meets innovation</h2>
+      <p data-aos="fade-up" data-aos-delay="100">High-quality renovations in Hamilton and surrounding areas.</p>
+      <a href="#contact" class="btn-primary" data-aos="zoom-in" data-aos-delay="200">Contact Us</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+  <div class="container">
+    <h3 data-aos="fade-up">Our Services</h3>
+    <div class="service-grid">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/kitchen.png" alt="Kitchen" />
+        <h4>Kitchen Cabinet Installation</h4>
+        <p>Transform your kitchen with modern, space-saving cabinets professionally installed.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/bath.png" alt="Bathroom" />
+        <h4>Bathroom Renovations</h4>
+        <p>Upgrade your bathroom with new fixtures, tiles, and a touch of elegance.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <img src="images/basement.png" alt="Basement" />
+        <h4>Basement Finishing</h4>
+        <p>Convert your basement into livable space — game room, office, or suite.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <img src="images/add.png" alt="Additions" />
+        <h4>Custom Home Additions</h4>
+        <p>Expand your home with new rooms, sunrooms, garages, or outdoor decks.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+        <img src="images/construction.png" alt="Whole Home" />
+        <h4>Whole Home Renovations</h4>
+        <p>Start fresh. Complete home makeovers from walls to windows.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+        <img src="images/paint.png" alt="Flooring" />
+        <h4>Flooring & Painting</h4>
+        <p>From vinyl to hardwood — and finishing touches with professional painting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="about" class="about">
+  <div class="container about-grid">
+    <div class="about-text" data-aos="fade-right">
+      <h3>About RenoRiser</h3>
+      <p>
+        At RenoRiser, we believe your home should reflect your lifestyle — beautifully, functionally, and affordably.
+      </p>
+      <p>
+        With years of experience in Hamilton and surrounding areas, we deliver trusted renovation services with craftsmanship at the core. Whether it's a kitchen upgrade or a full-home makeover, we’re here to build your vision.
+      </p>
+      <ul>
+        <li>✔ Family-owned & operated</li>
+        <li>✔ Your dependable renovation partner</li>
+        <li>✔ Committed to quality & trust</li>
+      </ul>
+    </div>
+    <div class="about-img" data-aos="fade-left">
+      <img src="images/about-placeholder.jpg" alt="Reno Riser team working" />
+    </div>
+  </div>
+</section>
+
+
+  <section class="offer">
+    <div class="container" data-aos="zoom-in-up">
+      <div class="badge">LIMITED OFFER!</div>
+      <p>Enjoy 10% off! Contact us before July to secure your discount.<br />
+      Call now for a complimentary consultation.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <h3>Contact Us</h3>
+    <p>Reach out to us by filling out the form or give us a call — we’d love to hear from you.</p>
+
+    <form action="mailto:RenoRiser@outlook.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+    
+    <div class="contact-buttons">
+  <a href="https://renoriser.setmore.com" target="_blank" class="book-btn">
+    📅 Book Free Inspection
+  </a>
+  <a href="tel:+13654769000" class="btn-call">
+    📞 Call Now: (365) 476-9000
+  </a>
+</div>
+
+  </div>
+</section>
+
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 RenoRiser. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, easing: 'ease-in-out' });
+
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+      if (window.scrollY > 50) {
+        navLinks.classList.remove('show');
+      }
+    });
+  </script>
+</body>
+</html>
